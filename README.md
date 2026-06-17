@@ -51,7 +51,7 @@
                     │ counter                  │
                     ▼                          ▼
                 ┌─────────────────────────────────┐
-                │   pwm_raw = (counter < duty)     │
+                │   pwm_raw = (counter < duty)    │
                 └────────────────┬────────────────┘
                                  │
                        invert ──►│ (optional polarity flip)
