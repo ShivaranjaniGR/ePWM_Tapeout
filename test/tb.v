@@ -13,7 +13,7 @@ module tb;
     wire [7:0] uio_oe;
 
     // Connects directly to the corrected toolchain ports
-    tt_um_example uut (
+    tt_um_configurable_pwm uut (
         .ui_in   (ui_in),
         .uo_out  (uo_out),
         .uio_in  (uio_in),
